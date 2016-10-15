@@ -1,0 +1,26 @@
+{
+  "name": "webpack-hello-world",
+  "version": "1.0.0",
+  "description": "Webpack Hello World!!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianosaaquino/webpack-hello-world.git"
+  },
+  "author": "@AIO_agile_dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianosaaquino/webpack-hello-world/issues"
+  },
+  "homepage": "https://github.com/adrianosaaquino/webpack-hello-world#readme",
+  "devDependencies": {
+    "css-loader": "^0.25.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
